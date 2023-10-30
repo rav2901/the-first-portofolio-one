@@ -8,6 +8,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
   }
+  #logo-and-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    padding:20px;
+  }
   
   h1,
   h2,
