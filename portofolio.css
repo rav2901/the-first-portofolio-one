@@ -8,6 +8,8 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
   }
+  /*navigation bar style*/
+  
   #logo-and-nav{
     display:flex;
     justify-content:space-between;
@@ -22,6 +24,7 @@
 h1{
   background-color:aqua;
 }
+/*hero banner photo of me and subtitle style*/
 .hero-banner{
   display:flex;
   justify-content:space-between;
@@ -41,6 +44,70 @@ h1{
 background-color: aqua;
 font-size: x-large;
 }
+/*about me section style*/
+.page-wrapper{
+  width:80%;
+  height: 100%;
+  margin:0 auto;
+}
+#about{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+h3{
+  font-size: 48px;
+  border-right: solid black; 
+  float:inline-start;
+}
+/* portofolio section work grid*/
+.page-section{
+  display: grid;
+  grid-template-columns: 10% 90%;
+  margin:80px 0;
+  gap: 10px;
+}
+
+.grid-work{
+  display:grid;
+  height: 600px;
+  gap:20px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:50% 25% 25%;
+  grid-template-areas:
+  "surf surf"
+  "led calculator"
+  "pastel run";
+}
+.surf{
+  grid-area:surf;
+  background-image:url("images/mini-project.jpg.png");
+}
+.led{
+  grid-area:led;
+  background-image: url("images/02-portfolio-1.jpg");
+  
+}
+.calculator{
+   grid-area:calculator;
+  background-image: url("images/02-portfolio-2.jpg");
+}
+.pastel{
+  grid-area:pastel;
+  background-image:url("images/02-portfolio-3.jpg");
+}
+.run{
+  grid-area:run;
+  background-image:url("images/Capture.PNG");
+}
+#contact{
+  display:flex;
+  justify-content:stretch;
+ align-items: center;
+
+
+}
+
   h1,
   h2,
   h3,
