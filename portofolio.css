@@ -10,12 +10,37 @@
   }
   #logo-and-nav{
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     background-color: bisque;
-    padding:20px;
+    padding:10px;
   }
-  
+  a{
+    color: brown;
+    font-size: large;
+  }
+h1{
+  background-color:aqua;
+}
+.hero-banner{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  background-image: url("images/02-hero-bg.jpg")
+}
+.hero-banner img{
+  height: auto;
+  width: 200px;
+}
+.hero-banner h2{
+background-color: aqua;
+font-size: x-large;
+}
   h1,
   h2,
   h3,
