@@ -8,6 +8,9 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
   }
+  :root{
+    --text-bg-color:aqua;
+  }
   /*navigation bar style*/
   
   #logo-and-nav{
@@ -22,7 +25,7 @@
     font-size: large;
   }
 h1{
-  background-color:aqua;
+  background-color:var(--text-bg-color);
 }
 /*hero banner photo of me and subtitle style*/
 .hero-banner{
@@ -41,7 +44,7 @@ h1{
   width: 200px;
 }
 .hero-banner h2{
-background-color: aqua;
+background-color:var(--text-bg-color);
 font-size: x-large;
 }
 /*about me section style*/
@@ -74,6 +77,7 @@ h3{
   gap:15px;
   grid-template-columns: 50% 50%;
   grid-template-rows:50% 25% 25%;
+  opacity:0.5;
   grid-template-areas:
   "surf surf"
   "led calculator"
@@ -81,12 +85,12 @@ h3{
 }
 .surf{
   grid-area:surf;
-  background-image:url("images/mini-project.jpg.png");
+  background-image:url("images/02-portfolio-4.jpg");
+  
 }
 .led{
   grid-area:led;
   background-image: url("images/02-portfolio-1.jpg");
-  
 }
 .calculator{
    grid-area:calculator;
@@ -105,12 +109,15 @@ h3{
   justify-content:stretch;
  align-items: center;
 }
+h4,
+h6{background-color:var(--text-bg-color)
+
+}
 /*contact me section style*/
 #contact{
   display:flex;
   justify-content: space-between;
 }
-
 
   h1,
   h2,
@@ -124,4 +131,9 @@ h3{
   p {
     margin: 0;
   }
+  /*media quarey*/
+ 
+ 
+
+
   
